@@ -1,0 +1,83 @@
+.menu ul{
+    display: flex;
+    justify-content:flex-end;
+    margin: 30px;
+    gap: 20px;
+    list-style: none;
+}
+.menu ul a{
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+}
+.menu .red{
+    color: rgb(255, 100, 100);
+}
+.bar{
+    display: none;
+}
+nav{
+    margin: 0 120px;
+}
+.title h1{
+    font-size: 30px;
+}
+.para h2{
+    font-size: 21px;
+}
+.para{
+    width: 55%;
+    line-height:20px;
+}
+.date1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: -20px;
+}
+.date1 hr{
+    width: 2px;
+    height: 15px;
+    background-color: gray;
+    transform: translate(-200px,8px);
+}
+.exp{
+    transform: translateX(-280px);
+    color: rgb(209, 216, 220);
+}
+.lorem{
+    margin-top: -5px;
+}
+hr{
+    color: rgb(243, 243, 243)
+}
+footer{
+    text-align: center;
+    margin-top: 50px;
+}
+footer p{
+    font-size: 12px;
+    transform: translateX(6px);
+    margin-top: 10px;
+}
+.reseau i{
+    font-size: 30px;
+    margin-left: 20px;
+}
+@media screen and (max-width: 700px) {
+    .bar{
+        display: none;
+        text-align: end;
+        margin: 20px 90px;
+    }
+    nav{
+        margin: 0 10px;
+    }
+    .para{
+        width: 88%;
+    }
+    footer{
+        transform: translateX(-37px);
+        margin-bottom: 40px;
+    }
+}
