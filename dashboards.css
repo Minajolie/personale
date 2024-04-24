@@ -11,6 +11,9 @@
     text-decoration: none;
     font-size: 18px;
 }
+button{
+    display: none;
+}
 .menu .red{
     color: rgb(255, 100, 100);
 }
