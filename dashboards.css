@@ -69,10 +69,32 @@ footer p{
     margin-left: 20px;
 }
 @media screen and (max-width: 700px) {
-    .bar{
+    button{
+        display: flex;
+        position: relative;
+        padding: 20px;
+        transform: translate(250px);
+        border: none;
+        background-color: #fff;
+    }
+    button i{
+        font-size: 20px;
+    }
+    button:hover .sleep li{
+        display:inline-block;
+    }
+    .element{
+        color: #000;
+        font-size: 15px;
+       text-decoration: none;
+    }
+     .sleep li{
         display: none;
-        text-align: end;
-        margin: 20px 90px;
+        transform: translate(-160px,20px);
+        margin-top: 10px;
+    } 
+    .menu ul{
+        display: none;
     }
     .nav{
         margin: 20px 20px;
