@@ -149,9 +149,7 @@ footer p{
     color: rgb(218, 218, 218);
 }
 @media screen and (max-width: 800px) {
-    nav{
-        transform: translateX(-30px);
-    }
+    
     button{
         display: flex;
         position: relative;
@@ -184,6 +182,7 @@ footer p{
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        transform: translateX(13px)
     }
     .image img{
         width: 100px;
